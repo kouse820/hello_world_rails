@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bundle exec *)",
+      "Bash(bundle install *)",
+      "Bash(kill %1)",
+      "Bash(wait %1)",
+      "Bash(lsof *)",
+      "Bash(ps *)",
+      "Bash(kill 16164 *)",
+      "Bash(jobs -l)"
+    ]
+  }
+}
