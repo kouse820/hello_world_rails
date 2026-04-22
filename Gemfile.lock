@@ -213,7 +213,6 @@ GEM
       childprocess (>= 0.5, < 5.0)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2)
-    spring (4.4.2)
     sprockets (4.2.2)
       concurrent-ruby (~> 1.0)
       logger
@@ -275,7 +274,6 @@ DEPENDENCIES
   rails (~> 6.1.7, >= 6.1.7.1)
   sass-rails (>= 6)
   selenium-webdriver (>= 4.0.0.rc1)
-  spring
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 4.1.0)
