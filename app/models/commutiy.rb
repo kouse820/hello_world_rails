@@ -1,0 +1,2 @@
+class Commutiy < ApplicationRecord
+end
