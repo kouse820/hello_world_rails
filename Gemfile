@@ -33,6 +33,9 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem "pry-rails"
   gem "pry-byebug"
+  gem "rspec-rails", "~> 5.0.0"
+  gem "factory_bot_rails"
+  gem "faker"
 end
 
 group :development do
@@ -42,9 +45,6 @@ group :development do
   # Can be configured to work on production as well see: https://github.com/MiniProfiler/rack-mini-profiler/blob/master/README.md
   gem 'rack-mini-profiler', '~> 2.0'
   gem 'listen', '~> 3.3'
-  gem "rspec-rails", "~> 5.0.0"
-  gem "factory_bot_rails"
-  gem "faker"
 end
 
 group :test do

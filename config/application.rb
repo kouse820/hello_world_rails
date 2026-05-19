@@ -24,7 +24,7 @@ module HelloWorldRails
       g.stylesheets false
       g.helper false
       g.templates_engine false
-      g,test_framework :rspec
+      g.test_framework :rspec
    end
 
    config.api_only = true
