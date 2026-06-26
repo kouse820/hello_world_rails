@@ -16,7 +16,14 @@ RSpec.describe "Users", type: :request do
   end
 
   describe "POST /:id" do
-    it "任意のユーザーレコードが取得できる" do
+    context "適切なパラメーターを送信したとき" do
+      it "任意のユーザーレコードが取得できる" do
+      end
+    end
+
+    context "不適切なパラメーターを送信したとき" do
+      it "エラーする" do
+      end
     end
   end
 

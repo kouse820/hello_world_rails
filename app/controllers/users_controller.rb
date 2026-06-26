@@ -11,12 +11,6 @@ class UsersController < ApplicationController
 
   def create
     # インスタンスを　model　から作成する
-    # @user = User.new(
-    #   name: params[:name],
-    #   account: params[:account],
-    #   email: params[:email],
-    # )
-
     @user = User.new(user_params)
     #　インスタンスを　DB　に保存する
     @user.save!
