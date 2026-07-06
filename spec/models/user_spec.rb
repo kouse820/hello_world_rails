@@ -27,7 +27,7 @@ RSpec.describe User, type: :model do
     before { create(:user, account: "foo") }
 
 
-    fit "ユーザー作成に失敗する" do
+    it "ユーザー作成に失敗する" do
       user = build(:user, account: "foo")
 
      expect(user).to be_invalid
