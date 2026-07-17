@@ -8,7 +8,9 @@
       "Bash(lsof *)",
       "Bash(ps *)",
       "Bash(kill 16164 *)",
-      "Bash(jobs -l)"
+      "Bash(jobs -l)",
+      "Bash(gh pr *)",
+      "Bash(git revert *)"
     ]
   }
 }
