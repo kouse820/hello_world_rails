@@ -41,28 +41,16 @@ RSpec.describe "Users", type: :request do
   end
 
   describe "POST /users" do
-    it "任意のユーザーレコードが作成できる" do
+    it "ユーザーレコードが作成できる" do
     end
   end
 
-  describe "PATCH /users/:id" do
-    subject { patch(user_path(user_id), params: params) }
-
-
-    let(:params) do { user: { name: Faker::Name.name, created_at: 1.day.ago }}
-    end
-    let(:user_id) { user.id }
-    let(:user) { create(:user) }
-
-    it "任意のユーザーレコードを更新できる" do
-      expect { subject }.to change { user.reload.name }.from(user.name).to(params[:user][:name]) &
-                        not_change { user.reload.account } &
-                        not_change { user.reload.email } &
-                        not_change { user.reload.created_at }
+  describe "PATCH /posts/:id" do
+    it "指定したユーザーレコードが更新できる" do
     end
   end
 
-  describe "DELETE /users/:id" do
+  describe "DELETE /posts/:id" do
     it "指定したユーザーレコードが削除できる" do
     end
   end

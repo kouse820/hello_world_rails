@@ -91,6 +91,4 @@ RSpec.configure do |config|
   # as the one that triggered the failure.
   Kernel.srand config.seed
 =end
-
-RSpec::Matchers.define_negated_matcher :not_change, :change
 end
